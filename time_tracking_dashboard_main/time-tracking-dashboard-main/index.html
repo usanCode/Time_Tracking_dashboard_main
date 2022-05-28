@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="./main.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+   
+  </style>
+</head>
+<body>
+
+  <main>
+
+  <div class="frame">
+<div class="center">
+  <div class="jeremy">
+    <div class="firstjeremy stack-top">
+    <img style="width: 40px; height: 40px;border: 4px solid white; border-radius: 50%; margin-left: 12px; margin-top: 20px;" src="./images/image-jeremy.png" alt=""  >
+  <p class="paraReport"   >Report for</p>
+
+  <div class="fullName"   >
+  <h1 class="paraJeremy"  >  Jeremy </h1>
+  <h1 class="paraRobson"   >Robson</h1> 
+</div>
+
+</div>
+  <div class="secondjeremy">
+<ul>
+  <li>Daily</li>
+  <li>Weekly</li>   
+  <li>Monthly</li>  
+</ul>
+  </div>
+</div>
+
+<div class="travail">
+  <div style="background-color: hsl(15, 100%, 70%);border-radius:5px;opacity:8;">
+     <img style="width:35px; height:35px; margin-left: 120px;" src="./images/icon-work.svg" alt=""   >
+        </div>
+  <div class="secondTravail"> 
+     <p class="threeDotsWork">work</p>
+       <span class="toBeReplacedWork">
+  5hrs <!-- daily -->
+  Previous-7hrs <!-- daily -->
+</span>
+<p class="para32"   >32hrs </p><!-- weekly -->
+<p class="week"><span class="replace">Previous</span>-36hrs</p><!-- weekly --> 
+<span class="toBeReplacedWork">
+  103hrs <!-- monthly -->
+  Previous-128hrs <!-- monthly -->  </span> 
+ </div>
+</div>
+<div class="jouer">
+  <div style="background-color:hsl(195, 74%, 62%);border-radius:5px;opacity:8;">
+  <img style="width: 35px; height: 35px; margin-left: 120px; "src="./images/icon-play.svg" alt=""   >
+ </div>
+<div class="secondJouer">
+  <p class="threeDotsPlay">Play</p>
+  <!--<p>1hr</p>--> <!-- daily -->
+  <!--<p>Previous - 2hrs</p>--> <!-- daily -->
+  <p class="para10"  >10hrs</p> <!-- weekly -->
+  <p class="week">Previous - 8hrs </p><!-- weekly -->
+  <!--<p>23hrs</p>--> <!-- monthly -->
+  <!--<p>Previous - 29hrs</p>--> <!-- monthly -->
+</div>
+</div>
+<div class="etudier">
+  <div style="background-color: hsl(348, 100%, 68%);border-radius:5px;opacity:8;">
+  <img style="width: 35px; height: 35px; margin-left: 120px; " src="./images/icon-study.svg"  alt="" >
+  </div>
+  <div class="secondEtudier">
+  <p class="threeDotsStudy">Study</p>
+  <!--<p>0hrs </p>--> <!-- daily -->
+  <!--<p>Previous - 1hr </p>--><!-- daily -->
+  <p class="para4"  >4hrs</p> <!-- weekly -->
+  <p class="week">Previous - 7hrs</p> <!-- weekly -->
+  <!--<p>13hrs</p>--> <!-- monthly -->
+  <!--<p>Previous - 19hrs </p>--><!-- monthly -->
+</div>
+</div>
+<div class="devoir">
+  <div style="background-color:hsl(145, 58%, 55%);border-radius:5px;opacity:8;">
+  <img style="width: 35px; height: 35px; margin-left: 120px; " src="./images/icon-exercise.svg" alt=""   >
+</div>
+<div class="secondDevoir">
+  <p class="threeDotsExercise">Exercise</p>
+  <!--<p>1hr</p>--> <!-- daily -->
+  <!--<p>Previous - 1hr </p>--> <!-- daily -->
+  <p  class="para4bis  " >4hrs </p> <!-- weekly -->
+  <p class="week">Previous - 5hrs </p> <!-- weekly -->
+  <!--<p>11hrs </p>--> <!-- monthly -->
+  <!--<p>Previous - 18hrs </p>--> <!-- monthly -->
+</div>
+</div>
+<div class="societe">
+  <div style="background-color: hsl(264, 64%, 52%);border-radius:5px;opacity:8;">
+  <img style="width: 35px; height: 35px; margin-left: 120px; " src="./images/icon-social.svg"  alt="" >
+  </div>
+  <div class="secondSociete">
+  <p class="threeDotsSocial">Social</p>
+  <!--<p>1hr </p>--><!-- daily -->
+  <!--<p>Previous - 3hrs </p>--><!-- daily -->
+  <p class="para5"  >5hrs </p> <!-- weekly -->
+  <p class="week">Previous - 10hrs </p> <!-- weekly -->
+  <!--<p>21hrs </p>--> <!-- monthly -->
+  <!--<p>Previous - 23hrs </p>--> <!-- monthly -->
+</div>
+</div>
+<div class="soins">
+  <div style="background-color: hsl(43, 84%, 65%);border-radius:5px;opacity:8;">
+  <img style="width: 35px; height: 35px; margin-left: 120px; " src="./images/icon-self-care.svg" alt="" >
+  </div>
+  <div class="secondSoins">
+  <p class="threeDotsCare">Self Care</p>
+  <!--<p>0hrs </p>--><!-- daily -->
+  <!--<p>Previous - 1hr  </p>--><!-- daily -->
+  <p class="para2"  >2hrs </p> <!-- weekly -->
+  <p class="week">Previous - 2hrs </p><!-- weekly -->
+  <!--<p>7hrs</p>--> <!-- monthly -->
+  <!--<p>Previous - 11hrs</p>--> <!-- monthly -->
+</div>
+</div>
+</div>
+</div>
+</main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" aria-label="About the owner"     >Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/usanCode" aria-label="About the owner"   >UsanCode</a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,888 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+
+
+ body{
+    background-color: hsl(226, 43%, 10%);
+    color:blanchedalmond;
+    
+  }
+  
+  .frame {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 800px;
+  height: 600px;
+  margin-top: -100px;
+  margin-left: -300px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+  background:hsl(226, 43%, 10%);
+  font-family: Rubik;
+  color: #fff;
+  
+} 
+
+.center {
+  position: absolute;
+  top: 50.8%;
+  left: 45.5%;
+  transform: translate(-50%,-50%);
+} 
+
+
+.jeremy{
+    position: absolute;
+    color:cornsilk;
+    border-radius: 5px;
+    margin-top: -200px;
+    margin-left:-300px;
+    padding:10px;
+   
+  }
+
+  .stack-top{
+    z-index: 9;
+    
+    
+  }
+  .firstjeremy{
+    color:cornsilk;
+    width: 160px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: hsl(246, 80%, 60%);
+    
+    
+    
+        }
+
+         
+.paraReport{
+
+  margin-left: 12px;
+  font-family: Rubik ;
+  font-size: 15px;
+  color: darkgray ;
+  margin-top:30px;
+  margin-left:10px;
+
+}
+
+.fullName{
+  display: grid;
+  line-height: 0.2rem;
+}
+
+.paraJeremy{
+
+  margin-left: 12px;
+  font-family: Rubik;
+  font-weight: 300;
+  margin-top:20px;
+
+}
+
+.paraRobson{
+  margin-left: 12px;
+  font-family: Rubik;
+  font-weight: 300;
+}
+
+
+  .secondjeremy{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    height:130px; 
+  }
+  
+  .travail{
+    position:absolute;
+    width: auto;
+    height: auto;
+    margin-top: -190px;
+    margin-left:-120px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+  }
+
+  
+  .threeDotsWork{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+    
+  }
+
+  .threeDotsWork::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:60px;
+  }
+
+  .para32{
+    font-size: 32px;
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+    margin-top:-30px;
+
+  }
+
+  .para10{
+    font-size: 32px;
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left: 20px;
+  }
+
+  .para4{
+    font-size: 32px;
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left: 20px;
+  }
+  .para4bis{
+    font-size: 32px;
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left: 20px;
+  }
+
+  .para5{
+    font-size: 32px;
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left: 20px;
+
+    
+  }
+
+  .para2{
+    font-size: 32px;
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left: 20px;
+
+    
+  }
+
+
+  .week{
+    margin-left:20px;
+    color:#a9a9a9;
+    font-size: 13px; 
+    
+  }
+  .replace{
+    visibility: hidden;
+    position:relative;
+
+  }
+  .replace:after{
+    visibility: visible;
+    position:absolute;
+    content:"Last Week";
+    top:0;
+    left:0; 
+    font-size: 11px;
+    
+  }
+
+  .toBeReplacedWork{
+    visibility: hidden;
+    position:relative;
+  }
+
+  .toBeReplacedWork:after{
+    visibility: visible;
+    position:absolute;
+    content:"";
+    
+  }
+  .jouer{
+    position:absolute;
+    width: auto;
+    height: auto;
+    margin-top: -190px;
+    margin-left:50px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .threeDotsPlay{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsPlay::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:60px;
+  }
+  .etudier{
+    position:absolute;
+    width: auto;
+    height: auto;
+    margin-top: -190px;
+    margin-left:215px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .threeDotsStudy{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsStudy::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:50px;
+  }
+  .devoir{
+    position:absolute;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-left:-120px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+
+  .threeDotsExercise{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsExercise::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:20px;
+  }
+  .societe{
+    position:absolute;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-left:50px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .threeDotsSocial{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsSocial::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:40px;
+  }
+  .soins{
+    position:absolute;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-left:215px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .threeDotsCare{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsCare::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:10px;
+  }
+  ul{
+    list-style-type: none;
+    color: darkgrey;
+    margin-left:-25px;
+    margin-top: -15px;
+    padding-top: 25px;
+    
+    
+  }
+  ul :hover{
+    color:white;
+    font-family:Rubik ;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+
+  @media screen and (max-width:375px) {
+    body{
+    background-color: hsl(226, 43%, 10%);
+    color:blanchedalmond;
+    
+  }
+  .frame {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  width: auto;
+  height: auto;
+  margin-top: -100px;
+  margin-left: -300px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+  background:hsl(226, 43%, 10%);
+  font-family: Rubik;
+  color: #fff;
+  
+}
+.center {
+  position: absolute;
+  top: 50.8%;
+  left: 50.5%;
+  transform: translate(-50%,-50%);
+}
+  
+.jeremy{
+    position: absolute;
+    color:cornsilk;
+    border-radius: 5px;
+    margin-top: -300px;
+    margin-left:30px;
+    padding:10px;
+    
+   
+  }
+
+  .jeremyphoto{
+    position:absolute;
+    
+    
+  }
+  .firstjeremy{
+    color:cornsilk;
+    width: 250px;
+    height: 150px;
+    left:20px;
+    bottom:0px;
+    border-radius: 10px;
+    background-color: hsl(246, 80%, 60%);
+   
+    
+
+  }
+
+
+.paraReport{
+
+    margin-left: 12px;
+    font-family: Rubik ;
+    font-size: 15px;
+    color: darkgray ;
+    
+    margin-left:10px;
+
+}
+
+.fullName{
+  display: flex;
+  
+}
+
+.paraJeremy{
+
+    margin-left: 12px;
+    font-family: Rubik;
+    font-size: 20px;
+   
+
+}
+
+.paraRobson{
+    margin-left: 12px;
+    font-family: Rubik;
+    font-size: 20px;
+}
+
+
+  .secondjeremy{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    height:70px;
+    z-index:1;
+
+    
+  }
+  .travail{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-top: -60px;
+    
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+   
+
+    
+  }
+  .secondTravail{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+  .threeDotsWork{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsWork::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:10px;
+  }
+  
+  .week{
+    margin-left:100px;
+    margin-top:-40px;
+    font-size: 10px;
+    color: grey;
+  }
+  .jouer{
+    position:absolute;
+    width: 200px;
+    height: 195px;
+    margin-top: 140px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondJouer{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+  .threeDotsPlay{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsPlay::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:100px;
+  }
+  .etudier{
+    position:absolute;
+    width: 200px;
+    height: 195px;
+    margin-top: 350px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondEtudier{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+
+  .threeDotsStudy{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsStudy::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:90px;
+  }
+  .devoir{
+    position:absolute;
+    width: 200px;
+    height: 195px;
+    margin-top: 550px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondDevoir{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+  .threeDotsExercise{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsExercise::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:60px;
+  }
+  
+  .societe{
+    position:absolute;
+    width: 200px;
+    height: 195px;
+    margin-top: 750px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondSociete{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+  .threeDotsSocial{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsSocial::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:80px;
+  }
+  .soins{
+    position:absolute;
+    width: 200px;
+    height: 195px;
+    margin-top:950px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondSoins{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+
+  .threeDotsCare{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsCare::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:50px;
+  }
+  ul{
+    display:flex;
+    list-style-type: none;
+    color: darkgrey;
+    margin-left:-25px;
+    margin-top: -15px;
+    padding-top: 25px;
+    font-size: 15px; 
+  }
+  ul :hover{
+    color:white;
+  } 
+  p{
+    margin-left:100px;
+    margin-top: -4px;
+    size:7px;
+  }
+}
+  @media screen and (max-width:768px) {
+    body{
+    background-color: hsl(226, 43%, 10%);
+    color:blanchedalmond;
+    
+  }
+  .frame {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  width: 375px;
+  height: 375px;
+  margin-top: -100px;
+  margin-left: -300px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+  background:hsl(226, 43%, 10%);
+  font-family: Rubik;
+  color: #fff;
+  
+}
+.center {
+  position: absolute;
+  top: 50.8%;
+  left: 50.5%;
+  transform: translate(-50%,-50%);
+}
+  
+.jeremy{
+    position: absolute;
+    color:cornsilk;
+    border-radius: 5px;
+    margin-top: -240px;
+    margin-left:30px;
+    padding:10px;
+   
+  }
+
+  .jeremyphoto{
+    position:absolute;
+    
+    
+  }
+  .firstjeremy{
+    color:cornsilk;
+    width: 200px;
+    height: 165px;
+    left:20px;
+    bottom:0px;
+    border-radius: 10px;
+    background-color: hsl(246, 80%, 60%);
+    font-size: 15px;
+
+  }
+  .secondjeremy{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    height:50px; 
+  }
+  .travail{
+    position: absolute;
+    width: 200px;
+    height: 165px;
+    margin-top: 150px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    border-top: orange ;
+
+    
+  }
+  .secondTravail{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+  .week{
+    margin-left:100px;
+    margin-top:-40px;
+    font-size: 10px;
+    color: grey;
+  }
+  
+  .threeDotsWork{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsWork::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:100px;
+  }
+  
+  
+  .jouer{
+    position:absolute;
+    width: 200px;
+    height: 165px;
+    margin-top: 150px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondJouer{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+  .threeDotsPlay{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsPlay::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:97px;
+  }
+  .etudier{
+    position:absolute;
+    width: 200px;
+    height: 165px;
+    margin-top: 320px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondEtudier{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+  .threeDotsStudy{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsStudy::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:84px;
+  }
+  .devoir{
+    position:absolute;
+    width: 200px;
+    height: 165px;
+    margin-top: 490px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondDevoir{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+  .threeDotsExercise{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsExercise::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:55px;
+  }
+  .societe{
+    position:absolute;
+    width: 200px;
+    height: 165px;
+    margin-top: 660px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondSociete{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+  .threeDotsSocial{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsSocial::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:70px;
+  }
+  .soins{
+    position:absolute;
+    width: 200px;
+    height: 165px;
+    margin-top:830px;
+    margin-left:40px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 5px;
+    
+  }
+  .secondSoins{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left:0px;
+    background-color: hsl(235, 46%, 20%);
+
+  }
+
+  .threeDotsCare{
+    font-weight: 400;
+    font-family:Rubik ;
+    margin-left:20px;
+  }
+
+  .threeDotsCare::after{
+    content:url(./images/icon-ellipsis.svg); 
+    margin-left:40px;
+  }
+  ul{
+    display:flex;
+    list-style-type: none;
+    color: darkgrey;
+    margin-left:-25px;
+    margin-top: -15px;
+    padding-top: 25px;
+    font-size: 15px;
+  }
+  ul :hover{
+    color:white;
+  } 
+  p{
+    margin-left:100px;
+    margin-top: -4px;
+    size:7px;
+  }
+}
