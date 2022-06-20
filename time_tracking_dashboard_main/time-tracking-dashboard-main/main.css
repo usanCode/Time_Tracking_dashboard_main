@@ -96,7 +96,7 @@
   .secondjeremy{
     background-color: hsl(235, 46%, 20%);
     border-radius: 10px;
-    height:130px; 
+    height:140px; 
   }
   
   .travail{
@@ -105,7 +105,7 @@
     height: auto;
     margin-top: -190px;
     margin-left:-120px;
-    background-color: hsl(235, 46%, 20%);
+    background-color: hsl(235, 46%, 20%);  
     border-radius: 5px;
   }
 
@@ -122,52 +122,15 @@
     margin-left:60px;
   }
 
-  .para32{
-    font-size: 32px;
-    font-weight: 400;
-    font-family:Rubik ;
-    margin-left:20px;
-    margin-top:-30px;
-
-  }
-
-  .para10{
+  
+  .paraHours{
     font-size: 32px;
     font-weight: 400;
     font-family:Rubik ;
     margin-left: 20px;
   }
 
-  .para4{
-    font-size: 32px;
-    font-weight: 400;
-    font-family:Rubik ;
-    margin-left: 20px;
-  }
-  .para4bis{
-    font-size: 32px;
-    font-weight: 400;
-    font-family:Rubik ;
-    margin-left: 20px;
-  }
-
-  .para5{
-    font-size: 32px;
-    font-weight: 400;
-    font-family:Rubik ;
-    margin-left: 20px;
-
-    
-  }
-
-  .para2{
-    font-size: 32px;
-    font-weight: 400;
-    font-family:Rubik ;
-    margin-left: 20px;
-
-    
-  }
+  
 
 
   .week{
@@ -175,7 +138,13 @@
     color:#a9a9a9;
     font-size: 13px; 
     
+
+
   }
+
+
+  /*
+
   .replace{
     visibility: hidden;
     position:relative;
@@ -191,6 +160,9 @@
     
   }
 
+  */
+  /*
+
   .toBeReplacedWork{
     visibility: hidden;
     position:relative;
@@ -202,6 +174,9 @@
     content:"";
     
   }
+
+  */
+
   .jouer{
     position:absolute;
     width: auto;
@@ -222,6 +197,10 @@
     content:url(./images/icon-ellipsis.svg); 
     margin-left:60px;
   }
+
+
+  
+  
   .etudier{
     position:absolute;
     width: auto;
@@ -242,6 +221,7 @@
     content:url(./images/icon-ellipsis.svg); 
     margin-left:50px;
   }
+
   .devoir{
     position:absolute;
     width: auto;
@@ -257,6 +237,7 @@
     font-weight: 400;
     font-family:Rubik ;
     margin-left:20px;
+    
   }
 
   .threeDotsExercise::after{
@@ -303,12 +284,15 @@
     content:url(./images/icon-ellipsis.svg); 
     margin-left:10px;
   }
+
+ 
   ul{
     list-style-type: none;
     color: darkgrey;
     margin-left:-25px;
     margin-top: -15px;
     padding-top: 25px;
+    
     
     
   }
@@ -318,9 +302,13 @@
     font-weight: 400;
     cursor: pointer;
   }
+  li{
+    padding-bottom: 20px;
+  }
 
 
   @media screen and (max-width:375px) {
+
     body{
     background-color: hsl(226, 43%, 10%);
     color:blanchedalmond;
@@ -328,10 +316,10 @@
   }
   .frame {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 45%;
-  width: auto;
-  height: auto;
+  width:fit-content;
+  height: fit-content;
   margin-top: -100px;
   margin-left: -300px;
   border-radius: 2px;
@@ -339,6 +327,7 @@
   background:hsl(226, 43%, 10%);
   font-family: Rubik;
   color: #fff;
+ 
   
 }
 .center {
@@ -348,13 +337,15 @@
   transform: translate(-50%,-50%);
 }
   
+
 .jeremy{
-    position: absolute;
+  position: absolute;
     color:cornsilk;
     border-radius: 5px;
     margin-top: -300px;
     margin-left:30px;
     padding:10px;
+   
     
    
   }
@@ -365,29 +356,31 @@
     
   }
   .firstjeremy{
+    
     color:cornsilk;
     width: 250px;
-    height: 150px;
+    height: 50px;
     left:20px;
-    bottom:0px;
+    bottom:0;
     border-radius: 10px;
     background-color: hsl(246, 80%, 60%);
    
     
-
   }
 
 
 .paraReport{
 
-    margin-left: 12px;
     font-family: Rubik ;
     font-size: 15px;
-    color: darkgray ;
+    color: #a9a9a9 ;
+    margin-top: 10px;
+    margin-left:12px;
     
-    margin-left:10px;
 
 }
+
+
 
 .fullName{
   display: flex;
@@ -395,7 +388,7 @@
 }
 
 .paraJeremy{
-
+margin-top: -10px;
     margin-left: 12px;
     font-family: Rubik;
     font-size: 20px;
@@ -404,6 +397,7 @@
 }
 
 .paraRobson{
+  margin-top: -10px;
     margin-left: 12px;
     font-family: Rubik;
     font-size: 20px;
@@ -414,23 +408,25 @@
     background-color: hsl(235, 46%, 20%);
     border-radius: 10px;
     height:70px;
-    z-index:1;
+  
 
     
   }
+
+
   .travail{
     position: absolute;
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height:195px;
     margin-top: -60px;
-    
     margin-left:40px;
     background-color: hsl(235, 46%, 20%);
     border-radius: 5px;
+        
    
-
-    
   }
+
+
   .secondTravail{
     position: absolute;
     width: 200px;
@@ -438,8 +434,10 @@
     margin-top: 25px;
     margin-left:0px;
     background-color: hsl(235, 46%, 20%);
-
+    
   }
+
+
   .threeDotsWork{
     font-weight: 400;
     font-family:Rubik ;
@@ -457,16 +455,22 @@
     font-size: 10px;
     color: grey;
   }
+
+  
   .jouer{
     position:absolute;
     width: 200px;
     height: 195px;
+   
     margin-top: 140px;
+  
     margin-left:40px;
     background-color: hsl(235, 46%, 20%);
     border-radius: 5px;
     
   }
+
+  
   .secondJouer{
     position: absolute;
     width: 200px;
@@ -486,6 +490,8 @@
     content:url(./images/icon-ellipsis.svg); 
     margin-left:100px;
   }
+
+  
   .etudier{
     position:absolute;
     width: 200px;
@@ -605,24 +611,33 @@
     content:url(./images/icon-ellipsis.svg); 
     margin-left:50px;
   }
+
+ 
+
   ul{
     display:flex;
     list-style-type: none;
     color: darkgrey;
+    
     margin-left:-25px;
-    margin-top: -15px;
-    padding-top: 25px;
+    justify-content: space-between;
+    
+   
     font-size: 15px; 
   }
   ul :hover{
     color:white;
-  } 
+  }
+  
   p{
     margin-left:100px;
     margin-top: -4px;
     size:7px;
   }
+ 
 }
+
+
   @media screen and (max-width:768px) {
     body{
     background-color: hsl(226, 43%, 10%);
@@ -677,6 +692,41 @@
     font-size: 15px;
 
   }
+
+  
+.paraReport{
+
+  font-family: Rubik ;
+  font-size: 15px;
+  color: #a9a9a9 ;
+  margin-top: 10px;
+  margin-left:12px;
+  
+
+}
+
+
+
+.fullName{
+display: flex;
+
+}
+
+.paraJeremy{
+margin-top: -10px;
+  margin-left: 12px;
+  font-family: Rubik;
+  font-size: 20px;
+ 
+
+}
+
+.paraRobson{
+margin-top: -10px;
+  margin-left: 12px;
+  font-family: Rubik;
+  font-size: 20px;
+}
   .secondjeremy{
     background-color: hsl(235, 46%, 20%);
     border-radius: 10px;
@@ -686,7 +736,7 @@
     position: absolute;
     width: 200px;
     height: 165px;
-    margin-top: 150px;
+    margin-top: -20px;
     margin-left:40px;
     background-color: hsl(235, 46%, 20%);
     border-radius: 5px;
@@ -720,6 +770,8 @@
     content:url(./images/icon-ellipsis.svg); 
     margin-left:100px;
   }
+  
+
   
   
   .jouer{
@@ -868,6 +920,9 @@
     content:url(./images/icon-ellipsis.svg); 
     margin-left:40px;
   }
+
+
+ 
   ul{
     display:flex;
     list-style-type: none;
@@ -876,13 +931,18 @@
     margin-top: -15px;
     padding-top: 25px;
     font-size: 15px;
+    justify-content: space-between;
+
   }
   ul :hover{
     color:white;
   } 
+
   p{
     margin-left:100px;
     margin-top: -4px;
     size:7px;
   }
+
+  
 }
